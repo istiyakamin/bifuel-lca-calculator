@@ -1,0 +1,5 @@
+{
+  "name": "WCO Biodiesel LCA Calculator",
+  "description": "An interactive web application to perform a Life Cycle Assessment (LCA) for biodiesel produced from Waste Cooking Oil (WCO), comparing its environmental impacts (GWP, Acidification, Eutrophication) against fossil diesel. Users can input data for various life cycle stages and visualize results.",
+  "requestFramePermissions": []
+}

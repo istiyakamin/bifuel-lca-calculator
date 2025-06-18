@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true, // Important: we only want type checking from tsc in CI
+    "baseUrl": ".",
+    "allowJs": true // In case you add any JS files later
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+    // If you had a dedicated 'src' folder, you might use "src/**/*.ts", "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules" // Standard exclusion, though you're not using npm install in this setup
+  ]
+}
